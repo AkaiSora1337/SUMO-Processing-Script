@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-09T20:50:32.207123+09:00 by Eclipse SUMO netedit 1.25.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" end="3600.00" perHour="495.87" from="E42" to="E43"/>
+    <flow id="f_1" begin="0.00" end="3600.00" perHour="103.99" from="E45" to="E43"/>
+    <flow id="f_10" begin="0.00" end="3600.00" perHour="90.00" from="E47" to="E46"/>
+    <flow id="f_11" begin="0.00" end="3600.00" perHour="270.07" from="E41" to="E49"/>
+    <flow id="f_2" begin="0.00" end="3600.00" perHour="125.00" from="E47" to="E49"/>
+    <flow id="f_3" begin="0.00" end="3600.00" perHour="81.01" from="E41" to="E48"/>
+    <flow id="f_4" begin="0.00" end="3600.00" perHour="140.02" from="E42" to="E49"/>
+    <flow id="f_5" begin="0.00" end="3600.00" perHour="296.05" from="E45" to="E46"/>
+    <flow id="f_6" begin="0.00" end="3600.00" perHour="440.10" from="E47" to="E48"/>
+    <flow id="f_7" begin="0.00" end="3600.00" perHour="49.00" from="E41" to="E43"/>
+    <flow id="f_8" begin="0.00" end="3600.00" perHour="97.01" from="E42" to="E46"/>
+    <flow id="f_9" begin="0.00" end="3600.00" perHour="117.99" from="E45" to="E48"/>
+    <personFlow id="pf_0" begin="0.00" end="3600.00" perHour="400.00">
+        <personTrip from="E46" to="E41"/>
+    </personFlow>
+    <personFlow id="pf_1" begin="0.00" end="3600.00" perHour="311.96">
+        <personTrip from="E48" to="E42"/>
+    </personFlow>
+    <personFlow id="pf_2" begin="0.00" end="3600.00" perHour="495.87">
+        <personTrip from="E49" to="E45"/>
+    </personFlow>
+    <personFlow id="pf_3" begin="0.00" end="3600.00" perHour="455.70">
+        <personTrip from="E43" to="E47"/>
+    </personFlow>
+</routes>
