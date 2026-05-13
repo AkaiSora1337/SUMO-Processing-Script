@@ -56,4 +56,4 @@ Key metrics include:
 scripts/     Python analysis scripts
 network/     SUMO network and route files
 outputs/     Simulation outputs
-docs/        Reports and documentation
+report/        Reports and documentation
